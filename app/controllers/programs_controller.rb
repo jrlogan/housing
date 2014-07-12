@@ -5,7 +5,7 @@ class ProgramsController < ApplicationController
 
   def create
     @program = Program.new(program_params)
-      if @apartment.save
+      if @program.save
         redirect_to @program
       else
         render 'new'
@@ -22,6 +22,7 @@ class ProgramsController < ApplicationController
   end
 
   def index
+    @program = Program.all
   end
 
   def show
