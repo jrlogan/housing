@@ -28,5 +28,3 @@ CRUD all the models
 (Batch-)add apartments
 Auto-suggest the homeless/program/apartment matching
 Manual override for the matching?
-
-Yay!
