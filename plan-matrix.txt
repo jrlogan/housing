@@ -1,0 +1,30 @@
+Binary criteria on homeless
+Ternary criteria (may, must, can't) on housing programmes
+-> display eligibility for programs per individual
+Death score
+
+Store homeless stats
+Store program stats
+Store apartment stats
+
+Inventory of housing? Scarcity around available housing
+-> matching the person on top of the list that is eligible
+
+
+
+(Is there flexibility?)
+
+Use case: landlord comes in and says, "we have ten apartments available"
+
+Pecking order: We want to match by SCORE first, with tie-breakers: 
+
+== Models
+Store homeless stats
+Store program stats
+Store apartment stats
+
+== Controllers
+CRUD all the models
+(Batch-)add apartments
+Auto-suggest the homeless/program/apartment matching
+Manual override for the matching?
