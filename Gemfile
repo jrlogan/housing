@@ -13,7 +13,6 @@ gem 'bootstrap-sass'
 gem 'devise'
 gem 'devise_invitable'
 gem 'simple_form'
-gem 'tzinfo-data'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
