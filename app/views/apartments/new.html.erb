@@ -1,0 +1,44 @@
+<h1> New </h1>
+
+<%= form_for :apartments, url: apartments_path do |f| %>
+  <p>
+    <%= f.label :rent %><br>
+    <%= f.text_field :rent %>
+  </p>
+ 
+  <p>
+    <%= f.label :floor %><br>
+    <%= f.text_area :floor %>
+  </p>
+
+   <p>
+    <%= f.label :max_capacity %><br>
+    <%= f.text_area :max_capacity %>
+  </p>
+
+   <p>
+    <%= f.label :pets_allowed %><br>
+    <%= f.text_area :pets_allowed %>
+  </p>
+
+   <p>
+    <%= f.label :wheelchair_accessible %><br>
+    <%= f.text_area :wheelchair_accessible %>
+  </p>
+
+   <p>
+    <%= f.label :smoking %><br>
+    <%= f.text_area :smoking %>
+  </p>
+
+   <p>
+    <%= f.label :information %><br>
+    <%= f.text_area :information %>
+  </p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+ 
+<%= link_to 'Back', apartments_path %>

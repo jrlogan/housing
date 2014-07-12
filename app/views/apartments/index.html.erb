@@ -1,0 +1,18 @@
+<h1>Apartments</h1>
+ 
+<table>
+  <tr>
+  </tr>
+ 
+  <% @apartments.each do |apartment| %>
+    <tr>
+      <td><%= apartment.rent %></td>
+      <td><%= apartment.floor %></td>
+      <td><%= apartment.max_capacity %></td>
+      <td><%= apartment.pets_allowed %></td>
+      <td><%= apartment.wheelchair_accessible %></td>
+      <td><%= apartment.smoking %></td>
+      <td><%= apartment.information %></td>
+    </tr>
+  <% end %>
+</table>
