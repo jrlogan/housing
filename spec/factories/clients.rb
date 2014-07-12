@@ -7,7 +7,7 @@ FactoryGirl.define do
     gender { %w(M W T).sample } # M, W, T
     chronic  { [true, false].sample }
     calculate_age {rand(14..80)}
-    prescreen_total 16
+    prescreen_total { rand(0..32) }
     prescreen1_2 1
     prescreen35_41 1
     prescreen42_48 1
