@@ -28,7 +28,7 @@
 }
 
 .client-progress-bar .done{
-	width: 67%;
+	width: 23%;
 	height: 10px;
 	background-color: green;
 	position: absolute;
@@ -42,14 +42,16 @@
 	font-weight: normal;
 }
 
-<<<<<<< HEAD
+
 main {
 	margin-top: 0px !important;
 }
 
 body {
 	padding-top: 40px !important;
-=======
+	background-color: white;
+}
+
 // Place all the styles related to the Home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
@@ -132,7 +134,7 @@ ul {
 
 #profile {
 	display:block;
-	background-color:white;
+	background-color: white;
 }
 
 #progress {

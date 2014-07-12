@@ -1,0 +1,10 @@
+<% provide(:title, 'All clients') %>
+<h1>All clients</h1>
+
+<ul>
+  <% @clients.each do |client| %>
+    <li>
+      <%= client.client_id%>
+    </li>
+  <% end %>
+</ul>
