@@ -2,8 +2,8 @@
 
 FactoryGirl.define do
   factory :housing_complex do
-    address "MyText"
-    on_bus_line false
-    exclusions "MyText"
+    address "205 Elm St, New Haven, 06520 CT"
+    on_bus_line true
+    exclusions "We don't accept any people with purple hair."
   end
 end
