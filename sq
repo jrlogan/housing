@@ -1,0 +1,182 @@
+[33mcommit bf1b255d23e2ea807d7e8b09442b19f14f5f7293[m
+Author: Dana Chaykovsky <dana.chaykovsky@yale.edu>
+Date:   Sat Jul 12 12:31:19 2014 -0400
+
+    Created profile pages
+
+[33mcommit b306219dbbf92978384ff30f2fc34936a0771cdc[m
+Author: Caroline Posner <caroline.posner@yale.edu>
+Date:   Sat Jul 12 11:58:59 2014 -0400
+
+    generated profile
+
+[33mcommit 8ea116816695fd0379b9761e7fbf556557134868[m
+Author: Dana Chaykovsky <dana.chaykovsky@yale.edu>
+Date:   Sat Jul 12 11:52:04 2014 -0400
+
+    Resolving push conflicts
+
+[33mcommit dd1c89fa12d346cf78c0fcfade7a426405ca6f86[m
+Author: Caroline Posner <caroline.posner@yale.edu>
+Date:   Sat Jul 12 11:43:20 2014 -0400
+
+    changed income-ver data to string
+
+[33mcommit d5931601998f8554aa967ebebaf4cd72b95777be[m
+Author: Caroline Posner <caroline.posner@yale.edu>
+Date:   Sat Jul 12 11:34:03 2014 -0400
+
+    home page
+
+[33mcommit ff7c4b9b24733f363d39aac232b16edf2fa176bf[m
+Author: Caroline Posner <caroline.posner@yale.edu>
+Date:   Sat Jul 12 11:32:05 2014 -0400
+
+    associated user/client
+
+[33mcommit 0d98abe255447ef14c6ca5ce02f0284959e27be9[m
+Author: Caroline Posner <caroline.posner@yale.edu>
+Date:   Sat Jul 12 11:20:54 2014 -0400
+
+    client model
+
+[33mcommit 630f540d1b60d323d982dcc7a0880d9eff15829d[m
+Author: Simon Podhajsky <simon.podhajsky@gmail.com>
+Date:   Sat Jul 12 11:09:12 2014 -0400
+
+    Gemfile changes
+
+[33mcommit 2a6e74d2682fe9d35c2a3de5dcad60a0bc6e6233[m
+Author: Simon Podhajsky <simon.podhajsky@gmail.com>
+Date:   Sat Jul 12 11:09:03 2014 -0400
+
+    sqlite database config
+
+[33mcommit f64929cc7881fb4aad0db105d00360e4b70bdb67[m
+Author: Simon Podhajsky <simon.podhajsky@gmail.com>
+Date:   Sat Jul 12 10:42:26 2014 -0400
+
+    Devise initializer
+
+[33mcommit 47a17f6bb90582ff06fcb56ff0a3aac3369161cf[m
+Author: Simon Podhajsky <simon.podhajsky@gmail.com>
+Date:   Sat Jul 12 10:42:17 2014 -0400
+
+    Changing project Ruby version to 1.9.3
+
+[33mcommit 795823f83c61abc823a03fa05ee5b7f7c353e5f0[m
+Author: Simon Podhajsky <simon.podhajsky@gmail.com>
+Date:   Sat Jul 12 10:41:58 2014 -0400
+
+    Basic route
+
+[33mcommit 8a81ad2afbb75f9e84e4ba6c55f5bb2200c9c39e[m
+Merge: 168d523 c6b8035
+Author: Simon Podhajsky <simon.podhajsky@gmail.com>
+Date:   Sat Jul 12 10:34:53 2014 -0400
+
+    Merge branch 'master' of https://github.com/cposner/housing
+
+[33mcommit 168d523cfeee2688f11552ddb1cba1c015dbcf86[m
+Author: Simon Podhajsky <simon.podhajsky@gmail.com>
+Date:   Sat Jul 12 10:33:30 2014 -0400
+
+    Gemfile and binstubs
+
+[33mcommit 3062aca1781595f5919b59f447b97389d8ebcec7[m
+Author: Simon Podhajsky <simon.podhajsky@gmail.com>
+Date:   Sat Jul 12 10:32:48 2014 -0400
+
+    rails_apps_composer: extras
+
+[33mcommit ea8b933aab88d6a7d0bbc1b43409548d18f3c815[m
+Author: Simon Podhajsky <simon.podhajsky@gmail.com>
+Date:   Sat Jul 12 10:32:48 2014 -0400
+
+    rails_apps_composer: navigation links
+
+[33mcommit 3a30ed305a29bc68332c35b22e399a787b5f0c81[m
+Author: Simon Podhajsky <simon.podhajsky@gmail.com>
+Date:   Sat Jul 12 10:32:42 2014 -0400
+
+    rails_apps_composer: set up database
+
+[33mcommit 14fa9ac76dc8716dbf4b77720a7c827ff0de96ee[m
+Author: Simon Podhajsky <simon.podhajsky@gmail.com>
+Date:   Sat Jul 12 10:32:26 2014 -0400
+
+    rails_apps_composer: add README files
+
+[33mcommit cfb753cadfba31411333f778bb452dc4cbf565d7[m
+Author: Simon Podhajsky <simon.podhajsky@gmail.com>
+Date:   Sat Jul 12 10:32:25 2014 -0400
+
+    rails_apps_composer: add pages
+
+[33mcommit 2e7e5154329e0526aa7d9fb468ee712d96780c84[m
+Author: Simon Podhajsky <simon.podhajsky@gmail.com>
+Date:   Sat Jul 12 10:32:22 2014 -0400
+
+    rails_apps_composer: front-end framework
+
+[33mcommit 27c12e7b1c5adf7eafbd185c81f7b5adead45e0c[m
+Author: Simon Podhajsky <simon.podhajsky@gmail.com>
+Date:   Sat Jul 12 10:32:19 2014 -0400
+
+    rails_apps_composer: devise
+
+[33mcommit 2c2bc3c879cec2bdb1a92ed46461f5766e36e45c[m
+Author: Simon Podhajsky <simon.podhajsky@gmail.com>
+Date:   Sat Jul 12 10:32:01 2014 -0400
+
+    rails_apps_composer: testing framework
+
+[33mcommit da1b3a8e3c1e0e8d3e9e813237fb7eea837f9de3[m
+Author: Simon Podhajsky <simon.podhajsky@gmail.com>
+Date:   Sat Jul 12 10:31:53 2014 -0400
+
+    rails_apps_composer: generators
+
+[33mcommit ac8fea843eb32cefcb8b6edd0ba105bff64bb405[m
+Author: Simon Podhajsky <simon.podhajsky@gmail.com>
+Date:   Sat Jul 12 10:31:50 2014 -0400
+
+    rails_apps_composer: create database
+
+[33mcommit faa7d6fe6257fe05c2302df30d1f829950bd7e2b[m
+Author: Simon Podhajsky <simon.podhajsky@gmail.com>
+Date:   Sat Jul 12 10:28:37 2014 -0400
+
+    rails_apps_composer: Gemfile
+
+[33mcommit c6b803529992dd0b1a98bf3b4d3e29e24431b760[m
+Merge: 0738937 c9bf33e
+Author: Caroline Posner <caroline.posner@yale.edu>
+Date:   Sat Jul 12 10:25:54 2014 -0400
+
+    merging
+    Merge branch 'master' of https://github.com/cposner/housing
+
+[33mcommit 52a069772512a5e36dcdd915994788ea3377cb2b[m
+Author: Simon Podhajsky <simon.podhajsky@gmail.com>
+Date:   Sat Jul 12 10:25:25 2014 -0400
+
+    rails_apps_composer: initial commit
+
+[33mcommit 0738937d1deee8f94e1c7cccd16266f2706e94f4[m
+Author: Caroline Posner <caroline.posner@yale.edu>
+Date:   Sat Jul 12 10:25:07 2014 -0400
+
+    client model
+
+[33mcommit c9bf33eb241492c0fdd44361c99333f8668fbb45[m
+Author: Simon Podhajsky <simon.podhajsky@gmail.com>
+Date:   Sat Jul 12 10:14:04 2014 -0400
+
+    Renamed the plan
+
+[33mcommit e231f2cc6e5143054a15eead6551c1b9e525cfc2[m
+Author: Simon Podhajsky <simon.podhajsky@gmail.com>
+Date:   Sat Jul 12 10:12:19 2014 -0400
+
+    Initial brainstorming / plan for the matrix
