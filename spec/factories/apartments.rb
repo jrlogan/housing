@@ -2,12 +2,12 @@
 
 FactoryGirl.define do
   factory :apartment do
-    rent 1000
-    floor 1
-    max_capacity 3
-    pets_allowed false
-    wheelchair_accessible "Maybe" # Yes, No, Maybe
-    smoking false
+    rent { rand 300..1200 }
+    floor { rand 1..5 }
+    max_capacity { rand 1..4 }
+    pets_allowed { [true, false].sample }
+    wheelchair_accessible { %w(Yes, No, Maybe).sample } # Yes, No, Maybe
+    smoking { [true, false].sample }
     information "This is an apartment from heaven."
     housing_complex { FactoryGirl.create(:housing_complex) }
   end
