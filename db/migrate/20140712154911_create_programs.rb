@@ -22,7 +22,7 @@ class CreatePrograms < ActiveRecord::Migration
       t.string :jail
       t.string :prison
       t.string :ci_incarceration
-      t.string :HIV-AIDS
+      t.string :hiv_aids
 
       t.timestamps
     end

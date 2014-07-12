@@ -23,6 +23,6 @@ FactoryGirl.define do
     jail "MyString"
     prison "MyString"
     ci_incarceration "MyString"
-    HIV-AIDS "MyString"
+    hiv_aids "MyString"
   end
 end
