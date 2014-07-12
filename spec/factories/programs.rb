@@ -2,7 +2,7 @@
 
 FactoryGirl.define do
   factory :program do
-    gender "" # M, W, both
+    gender "M" # M, W, both
     min_age 15
     total_homeless_years 1 # 0-1
     total_homeless_month 1 # 0-12 # months homeless, at least that
