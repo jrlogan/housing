@@ -1,5 +1,5 @@
 class AddHousingComplexToApartments < ActiveRecord::Migration
   def change
-    add_column :apartments, :housing_complex_id, :reference
+    add_reference :apartments, :housing_complex
   end
 end
