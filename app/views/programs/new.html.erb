@@ -1,6 +1,6 @@
 <h1>Enter a new Program</h1><br>
 
-<%= form_for @program, url: {action: "create"} do |f| %>
+<%= form_for @program, url: programs_path do |f| %>
 <p>
 	<%= f.label :gender %>
 	<%= f.text_field :gender %>
