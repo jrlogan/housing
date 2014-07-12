@@ -1,0 +1,26 @@
+<%= form_for :apartments, url: apartments_path do |f| %>
+    <%= f.label :rent %><br>
+    <%= f.text_field :rent %>
+  
+    <%= f.label :floor %><br>
+    <%= f.text_area :floor %>
+ 
+    <%= f.label :max_capacity %><br>
+    <%= f.text_area :max_capacity %>
+  
+    <%= f.label :pets_allowed %><br>
+    <%= f.text_area :pets_allowed %>
+ 
+    <%= f.label :wheelchair_accessible %><br>
+    <%= f.text_area :wheelchair_accessible %>
+  
+    <%= f.label :smoking %><br>
+    <%= f.text_area :smoking %>
+
+   <%= f.label :information %><br>
+    <%= f.text_area :information %>
+ 
+
+
+<%= f.label :number %> <br>
+<%= f.text_field :number %>
