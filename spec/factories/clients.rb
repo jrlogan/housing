@@ -33,7 +33,7 @@ FactoryGirl.define do
     ci_incarceration { [true, false].sample }
     hiv_aid { [true, false].sample }
     state 'Active'
-    user_id { FactoryGirl.create(:user) }
+    user_id { rand(1..5) }
     program_matched nil
     homeless_verification { [true, false].sample }
     disability_verification { [true, false].sample }
