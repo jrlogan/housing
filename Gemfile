@@ -16,7 +16,7 @@ gem 'devise_invitable'
 gem 'simple_form'
 group :development do
   gem 'better_errors'
-  gem 'binding_of_caller', :platforms=>[:mri_21]
+  gem 'binding_of_caller'
   gem 'guard-bundler'
   gem 'guard-rails'
   gem 'guard-rspec'
@@ -33,9 +33,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'thin'
 end
-group :production do
-  gem 'unicorn'
-end
+
 group :test do
   gem 'capybara'
   gem 'database_cleaner'
