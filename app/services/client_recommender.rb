@@ -34,37 +34,37 @@ class ClientRecommender
 	  				next
   			end
 
-  			if program.military == 'Cannot' && client.military 
+  			if program.military == 'Cannot' && client.military
   				clients.delete(client)
   				next
   			end
 
-  			if program.jail == 'Cannot' && client.jail 
+  			if program.jail == 'Cannot' && client.jail
   				clients.delete(client)
   				next
   			end
 
-  			if program.prison == 'Cannot' && client.prison 
+  			if program.prison == 'Cannot' && client.prison
   				clients.delete(client)
   				next
   			end
 
-  			if program.ci_incarceration == 'Cannot' && client.ci_incarceration 
+  			if program.ci_incarceration == 'Cannot' && client.ci_incarceration
   				clients.delete(client)
   				next
   			end
 
-  			if program.hiv_aids == 'Cannot' && client.hiv_aids 
+  			if program.hiv_aids == 'Cannot' && client.hiv_aids
   				clients.delete(client)
   				next
   			end
 
-  			if program.drug_alcohol_treatment == 'Cannot' && client.drug_alcohol_treatment 
+  			if program.drug_alcohol_treatment == 'Cannot' && client.drug_alcohol_treatment
   				clients.delete(client)
   				next
   			end
   		end
-  		eligibleClients.order('prescreen_total desc')
+  		clients.order('prescreen_total desc')
   	end
   end
 
