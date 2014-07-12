@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140712154911) do
+ActiveRecord::Schema.define(version: 20140712171019) do
 
   create_table "clients", force: true do |t|
     t.datetime "intvw_date"
@@ -51,6 +51,21 @@ ActiveRecord::Schema.define(version: 20140712154911) do
     t.string   "disability_verification"
     t.string   "income_verification"
     t.boolean  "identity_verification"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "housing_complexes", force: true do |t|
+    t.text     "address"
+    t.boolean  "on_bus_line"
+    t.text     "exclusions"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "program_contracts", force: true do |t|
+    t.integer  "program_id"
+    t.integer  "housing_complex_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
