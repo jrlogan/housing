@@ -33,3 +33,11 @@
   <strong>Information:</strong>
   <%= @apartment.information %>
 </p>
+
+<% if @apartment.clients %>
+<h2>Current tenants</h2>
+<ul>
+  <% @apartment.clients.each do |c| %>
+  <li>Client ID <%= c.client_id %></li>
+  <% end %>
+<% end %>

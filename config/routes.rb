@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
 
-	resource :programs
+	resources :programs
 	get 'programs/index'
 
   devise_for :users
-  resource :apartments
+  resources :apartments
 
   root to: 'home#index'
 end
