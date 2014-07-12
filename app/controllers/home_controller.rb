@@ -3,5 +3,7 @@ class HomeController < ApplicationController
 	end
 
 	def recommend
+		@apartment = Apartment.find(params[:id])
+		@recommended_clients = ClientRecommender.get_qualifying_clients(@apartment)
 	end
 end
