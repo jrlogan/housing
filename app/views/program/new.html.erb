@@ -1,0 +1,99 @@
+<h1>Enter a new Program</h1><br>
+
+<%= form_for @program, url: {action: "create"} do |f| %>
+<p>
+	<%= f.label :gender %>
+	<%= f.text_field :gender %>
+</p><br>
+<p>
+	<%= f.label :min_age %>
+	<%= f.number_field :min_age %>
+</p><br>
+<p>
+	<%= f.label :total_homeless_years %>
+	<%= f.number_field :total_homeless_years %>
+</p><br>
+<p>
+	<%= f.label :total_homeless_month %>
+	<%= f.number_field :total_homeless_month %>
+</p><br>
+<p>
+	<%= f.label :total_homeless_housed_again %>
+	<%= f.number_field :total_homeless_housed_again %>
+</p><br>
+<p>
+	<%= f.label :chronic %>
+	<%= f.text_field :chronic %>
+</p><br>
+<p>
+	<%= f.label :money_regular_basis %>
+	<%= f.text_field :money_regular_basis %>
+</p><br>
+<p>
+	<%= f.label :drug_alcohol_abuse %>
+	<%= f.text_field :drug_alcohol_abuse %>
+</p><br>
+<p>
+	<%= f.label :drug_alcohol_treatment %>
+	<%= f.text_field :drug_alcohol_treatment %>
+</p><br>
+<p>
+	<%= f.label :alcohol_daily_last_month %>
+	<%= f.text_field :alcohol_daily_last_month %>
+</p><br>
+<p>
+	<%= f.label :hosp_emotional_nerves %>
+	<%= f.text_field :hosp_emotional_nerves %>
+</p><br>
+<p>
+	<%= f.label :mh_professional_appnt %>
+	<%= f.text_field :mh_professional_appnt %>
+</p><br>
+<p>
+	<%= f.label :mht_against_will %>
+	<%= f.text_field :mht_against_will %>
+</p><br>
+<p>
+	<%= f.label :trauma_not_saught_treatment %>
+	<%= f.text_field :trauma_not_saught_treatment %>
+</p><br>
+<p>
+	<%= f.label :dual_diagnosis %>
+	<%= f.text_field :dual_diagnosis %>
+</p><br>
+<p>
+	<%= f.label :mobility_limits %>
+	<%= f.text_field :mobility_limits %>
+</p><br>
+<p>
+	<%= f.label :citizenship_status %>
+	<%= f.text_field :citizenship_status %>
+</p><br>
+<p>
+	<%= f.label :military %>
+	<%= f.text_field :military %>
+</p><br>
+<p>
+	<%= f.label :jail %>
+	<%= f.text_field :jail %>
+</p><br>
+<p>
+	<%= f.label :prison %>
+	<%= f.text_field :prison %>
+</p><br>
+<p>
+	<%= f.label :ci_incarceration %>
+	<%= f.text_field :ci_incarceration %>
+</p><br>
+<p>
+	<%= f.label :hiv_aids %>
+	<%= f.text_field :hiv_aids %>
+</p><br>
+<p>
+	<%= f.label :hiv_aids %>
+	<%= f.text_field :hiv_aids %>
+</p><br>
+<p>
+	<%= f.submit "Enter" %>
+</p><br>
+<% end %>
