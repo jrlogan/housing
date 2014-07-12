@@ -1,0 +1,41 @@
+<div class="client_id">
+	<h1><%= client.id %></h1>
+</div>
+<div class="status">
+	<h1><%= client.state %></h1>
+</div>
+<div class="profile">
+	<h2>Profile</h2>
+	<div class="basic">
+		<h3>Basic Information</h3>
+		<ul>Interview Date: <%= client.intvw_date %> </ul>
+		<ul>Gender: <%= client.gender %> </ul>
+
+
+	</div>
+	<div class="info">
+		<div class="button">
+			<h3>Prescreen <span style="color: red;"><%= client.prescreen_total %></span></h3>
+		</div>
+		<div class="button">
+			<h3>Homeless for <%=client.total_hmlss_years %> years</h3>
+		</div>
+		<div class="button">
+			<h3>Finance verified? <%=client.income_verification %></h3>
+		</div>
+		<div class="button">
+			<h3>Drugs/Alcohol problems? <%=client.drug_alcohol_treatment %></h3>
+		</div>
+		<div class="button">
+			<h3>Trauma past? <%=client.trauma_not_sought_help %></h3>
+		</div>
+		<div class="button">
+			<h3>Limited mobility? <%= client.mobility_limits %></h3>
+		</div>
+		<div class="button">
+			<h3>History <%= client.prison %></h3>
+		</div>
+	</div>
+</div>
+<div class="progress">
+</div>
