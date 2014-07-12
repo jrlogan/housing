@@ -13,6 +13,18 @@
 
 ActiveRecord::Schema.define(version: 20140712171019) do
 
+  create_table "apartments", force: true do |t|
+    t.integer  "rent"
+    t.integer  "floor"
+    t.integer  "max_capacity"
+    t.boolean  "pets_allowed"
+    t.string   "wheelchair_accessible"
+    t.boolean  "smoking"
+    t.text     "information"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "clients", force: true do |t|
     t.datetime "intvw_date"
     t.string   "client_id"
