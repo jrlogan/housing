@@ -34,7 +34,9 @@
   <%= @apartment.information %>
 </p>
 
+<h1>Recommended clients, sorted by need</h1>
 <% @recommended_clients.each do |c| %>
   <%= render partial: 'client', locals: {client: c} %>
+  <a href="/apartments/<%= @apartment.id %>/place/<%= c.id %>">Add this client to this apartment</a>
   <hr>
 <% end %>

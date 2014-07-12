@@ -37,6 +37,15 @@ end
 		end
 	end
 
+	def add
+		client_id = params[:client_id]
+		apartment_id = params[:id]
+
+		Client.find(client_id).update_attributes(apartment_id: apartment_id)
+
+		redirect_to apartment_path(apartment_id)
+	end
+
 	private
 	def apartment_params
 		params.require(:apartments).permit(:rent, :floor, :max_capacity, :pets_allowed, :wheelchair_accessible, :smoking, :information)
