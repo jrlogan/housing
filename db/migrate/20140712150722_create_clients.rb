@@ -40,7 +40,9 @@ class CreateClients < ActiveRecord::Migration
 	  t.boolean :income_verification
 	  t.boolean :identity_verification
 
+
       t.timestamps
     end
+    add_index :clients, [:user_id, :created_at]
   end
 end

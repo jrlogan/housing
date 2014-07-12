@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-  devise_for :users
+  resources :clients,:users
 
   root to: 'home#index'
+  match:'/profile',	to:'clients#profile',	via:'get'
 end
 
