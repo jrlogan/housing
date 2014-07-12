@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140712154113) do
+ActiveRecord::Schema.define(version: 20140712154911) do
 
   create_table "clients", force: true do |t|
     t.datetime "intvw_date"
@@ -51,6 +51,33 @@ ActiveRecord::Schema.define(version: 20140712154113) do
     t.string   "disability_verification"
     t.string   "income_verification"
     t.boolean  "identity_verification"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "programs", force: true do |t|
+    t.string   "gender"
+    t.integer  "min_age"
+    t.integer  "total_homeless_years"
+    t.integer  "total_homeless_month"
+    t.integer  "total_homeless_housed_again"
+    t.string   "chronic"
+    t.string   "money_regular_basis"
+    t.string   "drug_alcohol_abuse"
+    t.string   "drug_alcohol_treatment"
+    t.string   "alcohol_daily_last_month"
+    t.string   "hosp_emotional_nerves"
+    t.string   "mh_professional_appnt"
+    t.string   "mht_against_will"
+    t.string   "trauma_not_saught_treatment"
+    t.string   "dual_diagnosis"
+    t.string   "mobility_limits"
+    t.string   "citizenship_status"
+    t.string   "military"
+    t.string   "jail"
+    t.string   "prison"
+    t.string   "ci_incarceration"
+    t.string   "hiv_aids"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

@@ -8,6 +8,7 @@ FactoryGirl.define do
     total_homeless_years 1
     total_homeless_month 1
     total_homeless_housed_again 1
+    chronic "String"
     money_regular_basis "MyString"
     drug_alcohol_abuse "MyString"
     drug_alcohol_treatment "MyString"
