@@ -9,6 +9,7 @@
     <th>Wheelchair accessible?</th>
     <th>Smoking allowed?</th>
     <th>Further information</th>
+    <th></th>
   </tr>
 
   <% @apartments.each do |apartment| %>
@@ -20,6 +21,7 @@
       <td><%= apartment.wheelchair_accessible %></td>
       <td><%= apartment.smoking %></td>
       <td><%= apartment.information %></td>
+      <td><%= link_to "see details", apartment %></td>
     </tr>
   <% end %>
 </table>

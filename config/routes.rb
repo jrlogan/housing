@@ -5,6 +5,7 @@ Rails.application.routes.draw do
 
   devise_for :users
   resources :apartments
+	get 'apartments/:id/recommend' => "home#recommend", as: 'recommend_path'
 
   root to: 'home#index'
 end

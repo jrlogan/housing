@@ -34,6 +34,9 @@
   <%= @apartment.information %>
 </p>
 
+<h2>Get recommendations</h2>
+<p><a href="/apartments/<%= @apartment.id %>/recommend" class="btn btn-primary btn-large">Recommend tenants for this apartment</a></p>
+
 <% unless @apartment.clients.empty? %>
 <h2>Current tenants</h2>
 <ul>
