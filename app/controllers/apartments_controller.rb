@@ -1,3 +1,5 @@
+require 'pry'
+
 class ApartmentsController < ApplicationController
 
 	def index
@@ -8,15 +10,13 @@ class ApartmentsController < ApplicationController
 		@apartment = Apartment.new
 	end
 
-	def create 
-		@apartment = Apartment.new(apartment_params)
-
-		if @apartment.save
-			redirect_to @apartment
-		else 
-			render 'new'
+	def create
+		ActiveRecord::Base.transaction do
+  params[:apartments][:number].to_i.times { Apartment.create(apartment_params) }
+end
+		@apartments= Apartment.all
+		render index
 		end
-	end
 
 	def show
 		@apartment =Apartment.find(params[:id])
@@ -38,6 +38,6 @@ class ApartmentsController < ApplicationController
 
 	private
 	def apartment_params
-		params.require(:rent, :floor, :max_capacity, :pets_allowed, :wheelchair_accessible, :smoking, :information)
+		params.require(:apartments).permit(:rent, :floor, :max_capacity, :pets_allowed, :wheelchair_accessible, :smoking, :information)
 	end 
 end
