@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 	get 'programs/index'
 
   devise_for :users
-  resources :apartments
+  resource :apartments
 
   root to: 'home#index'
 end
