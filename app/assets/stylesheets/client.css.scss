@@ -8,3 +8,36 @@
 	font-size: 20px;
 	color: #fff;
 }
+
+.client_progress {
+	padding: 0 15px;
+}
+
+.client_progress .imcomplete {
+	width: 49%;
+}
+
+.client_progress .complete {
+	width: 49%;
+}
+
+.client-progress-bar {
+	width: 100%;
+	height: 10px;
+	background-color: red;
+}
+
+.client-progress-bar .done{
+	width: 67%;
+	height: 10px;
+	background-color: green;
+	position: absolute;
+}
+
+.padding-sides {
+	padding: 0 30px;
+}
+
+.checkbox {
+	font-weight: normal;
+}
