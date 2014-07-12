@@ -34,7 +34,7 @@
   <%= @apartment.information %>
 </p>
 
-<% if @apartment.clients %>
+<% unless @apartment.clients.empty? %>
 <h2>Current tenants</h2>
 <ul>
   <% @apartment.clients.each do |c| %>
