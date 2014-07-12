@@ -1,12 +1,13 @@
 class CreatePrograms < ActiveRecord::Migration
   def change
     create_table :programs do |t|
-      t.stringchronic :gender
+      t.string :gender
       t.integer :min_age
       t.integer :total_homeless_years
       t.integer :total_homeless_years
       t.integer :total_homeless_month
       t.integer :total_homeless_housed_again
+      t.string :chronic
       t.string :money_regular_basis
       t.string :drug_alcohol_abuse
       t.string :drug_alcohol_treatment
