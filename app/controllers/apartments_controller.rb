@@ -11,7 +11,7 @@ class ApartmentsController < ApplicationController
 	def create 
 		@apartment = Apartment.new(apartment_params)
 
-		if @article.save
+		if @apartment.save
 			redirect_to @apartment
 		else 
 			render 'new'
@@ -37,7 +37,7 @@ class ApartmentsController < ApplicationController
 	end
 
 	private
-	def article_params
-		params.require(:article).permit(:rent, :floor, :max_capacity, :pets_allowed, :wheelchair_accessible, :smoking, :information)
+	def apartment_params
+		params.require(:rent, :floor, :max_capacity, :pets_allowed, :wheelchair_accessible, :smoking, :information)
 	end 
 end
