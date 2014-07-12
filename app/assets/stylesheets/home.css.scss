@@ -1,3 +1,132 @@
+// Place all the styles related to the Client controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "bootstrap";
+
+.company-name .navbar-brand {
+  font-size: 20px;
+  color: #fff;
+}
+
+.client_progress {
+  padding: 0 15px;
+}
+
+.client_progress .imcomplete {
+  width: 49%;
+}
+
+.client_progress .complete {
+  width: 49%;
+}
+
+.client-progress-bar {
+  width: 100%;
+  height: 10px;
+  background-color: red;
+}
+
+.client-progress-bar .done{
+  width: 23%;
+  height: 10px;
+  background-color: green;
+  position: absolute;
+}
+
+.padding-sides {
+  padding: 0 30px;
+}
+
+.checkbox {
+  font-weight: normal;
+}
+
 // Place all the styles related to the Home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+/*
+* Style tweaks
+* --------------------------------------------------
+*/
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+footer {
+  padding: 30px 0;
+}
+
+h2 {
+  font-weight:bold;
+  font-size:35px;
+}
+
+h3 {
+  font-weight:bold;
+  font-size:25px;
+}
+
+ul {
+  font-size:15px;
+}
+
+/*
+* Off Canvas
+* --------------------------------------------------
+*/
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
+
+  .row-offcanvas-right {
+    right: 0;
+  }
+
+  .row-offcanvas-left {
+    left: 0;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+}
+
+.jumbotron {
+  display:block;
+  background-color:white;
+  text-align:center;
+}
+
+#profile {
+  display:block;
+  background-color:white;
+}
+
+#progress {
+  background-color:white;
+}

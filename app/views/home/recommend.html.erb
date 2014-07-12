@@ -1,6 +1,40 @@
 <h1>Recommendations for Apartment <%= @apartment.id %></h1>
-<ul>
-  <% @recommended_clients.each do |client| %>
-  <li><%= client.id %></li>
-  <% end %>
-</ul>
+<p>
+  <strong>Rent:</strong>
+  $<%= @apartment.rent %>
+</p>
+
+<p>
+  <strong>Floor:</strong>
+  <%= @apartment.floor %>
+</p>
+
+<p>
+  <strong>Max Capacity:</strong>
+  <%= @apartment.max_capacity %>
+</p>
+
+<p>
+  <strong>Pets:</strong>
+  <%= @apartment.pets_allowed %>
+</p>
+
+<p>
+  <strong>Wheelchair Accessible:</strong>
+  <%= @apartment.wheelchair_accessible %>
+</p>
+
+<p>
+  <strong>Smoking:</strong>
+  <%= @apartment.smoking %>
+</p>
+
+<p>
+  <strong>Information:</strong>
+  <%= @apartment.information %>
+</p>
+
+<% @recommended_clients.each do |c| %>
+  <%= render partial: 'client', locals: {client: c} %>
+  <hr>
+<% end %>
