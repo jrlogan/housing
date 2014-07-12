@@ -16,7 +16,7 @@ Inventory of housing? Scarcity around available housing
 
 Use case: landlord comes in and says, "we have ten apartments available"
 
-Pecking order: We want to match by SCORE first, with tie-breakers: 
+Pecking order: We want to match by SCORE first, with tie-breakers:
 
 == Models
 Store homeless stats
@@ -28,3 +28,5 @@ CRUD all the models
 (Batch-)add apartments
 Auto-suggest the homeless/program/apartment matching
 Manual override for the matching?
+
+Yay!
