@@ -4,6 +4,6 @@ class ClientRecommender
   end
 
   def match_other_criteria(apartment)
-    
+
   end
 end
