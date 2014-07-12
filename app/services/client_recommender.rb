@@ -5,6 +5,8 @@ class ClientRecommender
   # Returns array of clients that are eligible for funding in the apartment
   def get_qualifying_clients(apartment)
 
+
+
   end
 
   # 1. Takes output of get_qualifying_clients as possible tenants
