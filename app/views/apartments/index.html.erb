@@ -1,12 +1,19 @@
 <h1>Apartments</h1>
- 
+
 <table>
   <tr>
+    <th>Rent</th>
+    <th>Floor</th>
+    <th>Flat capacity</th>
+    <th>Pets allowed?</th>
+    <th>Wheelchair accessible?</th>
+    <th>Smoking allowed?</th>
+    <th>Further information</th>
   </tr>
- 
+
   <% @apartments.each do |apartment| %>
     <tr>
-      <td><%= apartment.rent %></td>
+      <td>$<%= apartment.rent %></td>
       <td><%= apartment.floor %></td>
       <td><%= apartment.max_capacity %></td>
       <td><%= apartment.pets_allowed %></td>
