@@ -2,12 +2,12 @@
 
 FactoryGirl.define do
   factory :apartment do
-    rent 1
+    rent 1000
     floor 1
-    max_capacity 1
+    max_capacity 3
     pets_allowed false
-    wheelchair_accessible "MyString"
+    wheelchair_accessible "Maybe" # Yes, No, Maybe
     smoking false
-    information "MyText"
+    information "This is an apartment from heaven."
   end
 end
