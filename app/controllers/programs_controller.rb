@@ -13,16 +13,24 @@ class ProgramsController < ApplicationController
   end
 
   def update
+    @program = Program.find(params[:id])
+
+    if @program.update(program_params)
+      redirect_to @program
+    else 
+      render 'edit'
+    end
   end
 
   def edit
+    @program = Program.find(params[:id])
   end
 
   def destroy
   end
 
   def index
-    @program = Program.all
+    @programs = Program.all
   end
 
   def show

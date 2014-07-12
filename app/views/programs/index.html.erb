@@ -1,2 +1,54 @@
 <h1>Program#index</h1>
-<p>Find me in app/views/program/index.html.erb</p>
+
+
+<table>
+  <tr>
+  	  <td>gender</td>
+      <td>min_age</td>
+      <td>total_homeless_years</td>
+      <td>total_homeless_month</td>
+      <td>total_homeless_housed_again</td>
+      <td>chronic</td>
+      <td>money_regular_basis</td>
+      <td>drug_alcohol_abuse</td>
+      <td>alcohol_daily_last_month</td>
+      <td>hosp_emotional_nerves</td>
+      <td>mh_professional_appnt</td>
+      <td>mht_against_will</td>
+      <td>trauma_not_saught_treatment</td>
+      <td>dual_diagnosis</td>
+      <td>mobility_limits</td>
+      <td>citizenship_status</td>
+      <td>military</td>
+      <td>jail</td>
+      <td>prison</td>
+      <td>ci_incarceration</td>
+      <td>hiv_aids</td>
+  </tr>
+ 
+  <% @programs.each do |program| %>
+    <tr>
+      <td><%= program.gender %></td>
+      <td><%= program.min_age %></td>
+      <td><%= program.total_homeless_years %></td>
+      <td><%= program.total_homeless_month %></td>
+      <td><%= program.total_homeless_housed_again %></td>
+      <td><%= program.chronic %></td>
+      <td><%= program.money_regular_basis %></td>
+      <td><%= program.drug_alcohol_abuse %></td>
+      <td><%= program.alcohol_daily_last_month %></td>
+      <td><%= program.hosp_emotional_nerves %></td>
+      <td><%= program.mh_professional_appnt %></td>
+      <td><%= program.mht_against_will %></td>
+      <td><%= program.trauma_not_saught_treatment %></td>
+      <td><%= program.dual_diagnosis %></td>
+      <td><%= program.mobility_limits %></td>
+      <td><%= program.citizenship_status %></td>
+      <td><%= program.military %></td>
+      <td><%= program.jail %></td>
+      <td><%= program.prison %></td>
+      <td><%= program.ci_incarceration %></td>
+      <td><%= program.hiv_aids %></td>
+    </tr>
+  <% end %>
+</table>
