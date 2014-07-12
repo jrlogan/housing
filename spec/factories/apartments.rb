@@ -9,5 +9,6 @@ FactoryGirl.define do
     wheelchair_accessible "Maybe" # Yes, No, Maybe
     smoking false
     information "This is an apartment from heaven."
+    housing_complex { FactoryGirl.create(:housing_complex) }
   end
 end
